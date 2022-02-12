@@ -1,7 +1,7 @@
 "use strict";
 
 export function handleCallbackImpl(left, right, f) {
-  return function (err, value) {
+  return (err, value) => {
     if (err) {
       f(left(err))();
     } else {
