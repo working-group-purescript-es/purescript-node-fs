@@ -1,3 +1,4 @@
 "use strict";
 
-export * as unsafeRequireFS from 'fs';
+import * as unsafeRequireFS from 'fs';
+export const unsafeRequireFS;
