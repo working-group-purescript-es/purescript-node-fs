@@ -1,3 +1,5 @@
 "use strict";
 
-export const unsafeRequireFS = require("fs");
+import fs from "fs";
+
+export const unsafeRequireFS = fs;
